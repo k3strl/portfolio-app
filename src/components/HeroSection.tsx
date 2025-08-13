@@ -97,6 +97,18 @@ export default function HeroSection() {
                 <Linkedin className="h-4 w-4 mr-2" />
                 🔗 LinkedIn
               </motion.a>
+
+              <motion.a
+                href={personalInfo.resume}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
+                variants={childVariants}
+                whileHover={{ scale: 1.05, color: "#4b5563" }}
+              >
+                <Github className="h-4 w-4 mr-2" />
+                💼 Resume
+              </motion.a>
             </motion.div>
           </div>
 
