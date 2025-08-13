@@ -80,10 +80,10 @@ export default function SkillsSection() {
           <motion.div variants={skillCategoryVariants}>
             <GlassCard className="p-4">
               <h3 className="text-lg font-medium mb-3 text-center md:text-left flex items-center">
-                <span className="mr-2 text-xl">🎨</span> Frontend Development
+                <span className="mr-2 text-xl">🎨</span> Frameworks & Libraries
               </h3>
               <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-                {skills.frontendDevelopment.map((skill, index) => (
+                {skills.frameworksAndLibraries.map((skill, index) => (
                   <SkillTag key={skill} skill={skill} index={index} />
                 ))}
               </div>
@@ -93,10 +93,10 @@ export default function SkillsSection() {
           <motion.div variants={skillCategoryVariants}>
             <GlassCard className="p-4">
               <h3 className="text-lg font-medium mb-3 text-center md:text-left flex items-center">
-                <span className="mr-2 text-xl">⚙️</span> Backend Development
+                <span className="mr-2 text-xl">⚙️</span> Development & Deployment
               </h3>
               <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-                {skills.backendDevelopment.map((skill, index) => (
+                {skills.developmentAndDeployment.map((skill, index) => (
                   <SkillTag key={skill} skill={skill} index={index} />
                 ))}
               </div>
@@ -119,10 +119,10 @@ export default function SkillsSection() {
           <motion.div variants={skillCategoryVariants}>
             <GlassCard className="p-4">
               <h3 className="text-lg font-medium mb-3 text-center md:text-left flex items-center">
-                <span className="mr-2 text-xl">☁️</span> Cloud & DevOps
+                <span className="mr-2 text-xl">🧪</span> Testing
               </h3>
               <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-                {skills.cloudAndDevOps.map((skill, index) => (
+                {skills.testing.map((skill, index) => (
                   <SkillTag key={skill} skill={skill} index={index} />
                 ))}
               </div>
