@@ -60,10 +60,11 @@ export const education = [
   {
     institution: "University of Minnesota",
     location: "Minneapolis, MN",
-    degree: "Certificate",
-    period: "2024 - 2025",
+    degree: "Full Stack Web Development Certificate",
+    period: "Completed March 2025",
     achievements: [
-      "Gained proficiency with full-stack development using MERN stack technologies (React, Express.js, MongoDB, Node.js), applying agile methodologies in both collaborative team projects and solo work. Built and delivered real-world applications with hands-on experience in problem-solving and project execution. ",
+      "Gained proficiency with full-stack development using MERN stack technologies (React, Express.js, MongoDB, Node.js), applying agile methodologies in both collaborative team projects and solo work.",
+      "Built and delivered real-world applications with hands-on experience in problem-solving and project execution. ",
     ],
   },
 ];
@@ -112,35 +113,40 @@ databaseAndStorage:
 export const projects = [
   {
     title: "Arceust Era",
-    github: "https://github.com/loremipsum/project",
+    github: "https://github.com/jsparrowio/arceust-era",
     description: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-      "Excepteur sint occaecat cupidatat non proident.",
+      "A collaborative Pokémon party builder game built with GraphQL to manage dynamic data and enable real-time user interactions.",
+      "Engineered the party page logic and implemented front-end GraphQL mutations to enable dynamic user interactions and real-time data updates.",
+      "Collaborated with teammates on styling consistency and multi-user state management to ensure seamless cross-device functionality.",
+      "Authored project documentation to streamline onboarding and resolved merge conflicts to maintain code integrity during development.",
     ],
   },
   {
     title: "TomeTrove",
-    github: "https://github.com/loremipsum/dolorapp",
+    github: "https://github.com/k3strl/18.TomeTrove",
     description: [
-      "Morbi in sem quis dui placerat ornare.",
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.",
-      "Praesent dapibus, neque id cursus faucibus.",
-      "Fusce feugiat malesuada odio.",
-      "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.",
+      "A book search platform leveraging the Google Books API to enable users to discover, save, and organize their reading collections efficiently.","Solo project converting an existing REST API to GraphQL using Apollo Server and Express, enabling more flexible and efficient data fetching.",
+      "Designed a GraphQL schema that streamlined client requests by eliminating redundant data retrieval and reducing over-fetching.",
+      "Deployed the application on Render and resolved environment variable configuration issues to ensure seamless functionality during deployment.",
+    ],
+  },
+  {
+    title: "CosmoCommute",
+    github: "https://github.com/k3strl/15-16.CosmoCommute",
+    description: [
+      "A space-themed platform leveraging NASA APIs to provide real-time updates on recent space weather events and estimate interplanetary travel times based on scientific data.",
+      "Developed a full-stack application with React for the frontend and Express/PostgreSQL with Sequelize for backend data management, incorporating JWT-based authentication for secure user access.",
+      "Engineered dynamic 3D planetary visualizations using Three.js to provide an immersive representation of interplanetary travel.",
+      "Collaborated effectively with team members through both synchronous and asynchronous communication to deliver a minimum viable product (MVP) on schedule."
     ],
   },
     {
-    title: "CosmoCommute",
-    github: "https://github.com/loremipsum/dolorapp",
+    title: "Monster Tamer",
+    github: "https://github.com/k3strl/monster-tamer",
     description: [
-      "A space-themed platform leveraging NASA APIs to provide real-time updates on recent space weather events and estimate interplanetary travel times based on scientific data.",
-      "",
-      "",
-      "",
-      "",
+      "Developed a fully functional monster tamer game using Phaser 3 and JavaScript, following a comprehensive tutorial to apply game development concepts.",
+      "Designed and implemented core gameplay mechanics, including character interactions and game progression, to enhance JavaScript skills and demonstrate technical ability.",
+      "Leveraged object-oriented programming principles and game loops to create a dynamic, interactive experience, marking the successful completion of an initial game development project."
     ],
   },
 ];
