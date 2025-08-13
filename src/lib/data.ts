@@ -22,7 +22,7 @@ export const workExperience = [
     ],
   },
   {
-    company: "Various Electrical Contractor companies",
+    company: "Various electrical contractor companies",
     location: "Denver, CO",
     position: "Apprentice electrician",
     period: "July 2016 - December 2021",
@@ -35,21 +35,23 @@ export const workExperience = [
   {
     company: "The Home Depot",
     location: "Glendale, CO",
-    position: "",
+    position: "Millwork Sales Associate",
     period: "May 2016 - July 2016",
     achievements: [
-      "",
-      "",
+      "Assisted customers at the millwork desk and on the sales floor in selecting pre-made or custom windows and doors to fit their project needs",
+      "Entered and reviewed custom measurements to ensure accurate orders and smooth installation of windows and doors",
+      "Used proprietary Home Depot systems to design, quote, order, and track millwork products from consultation through delivery",
     ],
   },
     {
     company: "The Home Depot",
-    location: "Front Range, CO & WY",
+    location: "Multiple locations, Front Range, CO & WY",
     position: "Merchandise Execution Team",
     period: "May 2010 - Jun 2016",
     achievements: [
-      "",
-      "",
+      "Organized product displays, maintained planograms, and updated signage in multiple Home Depot locations to align with brand standards and customer preferences.",
+      "Collaborated with team members to execute merchandising projects using hand tools, power tools, and lifting equipment for organized overhead storage and visually appealing high-traffic areas.",
+      "Balanced safety and efficiency in a dynamic retail environment, ensuring consistent store operations and positive customer interactions through proactive problem-solving and teamwork."
     ],
   },
 ];
@@ -88,7 +90,13 @@ export const skills = {
     "Netlify",
     "Render"
   ],
-databaseAndStorage: ["SQL (PostgreSQL)", "NoSQL (MongoDB)"],
+databaseAndStorage:
+    [
+      "SQL (PostgreSQL)",
+      "NoSQL Databases (MongoDB)",
+      "Sequelize ORM",
+      "Mongoose (MongoDB ODM)"
+    ],
   testing: [
     "Cypress (E2E/unit tests)",
     "Postman",
