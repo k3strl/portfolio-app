@@ -1,101 +1,109 @@
 export const personalInfo = {
-  name: "Lorem Ipsum",
-  location: "Dolor Sit Amet",
-  email: "lorem@ipsum.com",
-  github: "https://github.com/loremipsum",
-  linkedin: "https://linkedin.com/in/loremipsum",
+  name: "Nic Blaize",
+  location: "Minneapolis, MN, USA",
+  email: "nblaize@pm.me",
+  github: "https://github.com/k3strl/",
+  linkedin: "https://www.linkedin.com/in/nic-blaize/",
   profilePicture: "/profile.jpeg",
   heroDescription:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "As someone transitioning into software development, I bring a fresh perspective rooted in curiosity, adaptability, and a passion for solving real-world problems. My background in customer service — drawn from over 12 years in retail and 5 years as an electrician — has equipped me with strong communication, problem-solving, and collaboration skills. I've developed the ability to understand user needs, resolve conflicts, and deliver solutions that prioritize clarity and accessibility. I thrive in cross-functional environments, where I consistently demonstrate the ability to learn quickly, adapt to new technologies, and contribute to mission-driven teams. My goal is to grow in a mentorship-driven environment where I can create innovative projects that prioritize accessibility, performance, and meaningful impact. ",
 };
 
 export const workExperience = [
   {
-    company: "Lorem Ipsum Corp",
-    location: "Lorem City",
-    position: "Lorem Engineer",
+    company: "Sea Level Fish LLC",
+    location: "Hopkins, MN",
+    position: "Sales floor associate",
     period: "Jan 2020 - Present",
     achievements: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-      "Excepteur sint occaecat cupidatat non proident.",
-      "Sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "Curabitur pretium tincidunt lacus. Nulla gravida orci a odio.",
+      "Handled catching, bagging, acclimating, and caring for diverse aquarium fish",
+      "Conducted routine maintenance tasks including water changes and cleaning procedures",
+      "Received training from experienced fish keepers; shared knowledge with customers, provided advice, and solved challenges"
     ],
   },
   {
-    company: "Dolor Sit Amet",
-    location: "Ipsumville",
-    position: "Software Developer",
-    period: "Feb 2019 - Jan 2020",
+    company: "Various Electrical Contractor companies",
+    location: "Denver, CO",
+    position: "Apprentice electrician",
+    period: "July 2016 - December 2021",
     achievements: [
-      "Morbi in sem quis dui placerat ornare.",
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.",
+      "Installed and repaired electrical systems under supervision of licensed electricians",
+      "Worked directly with homeowners and general contractors to ensure customer satisfaction",
+      "Performed service calls and changes, service and panel upgrades, and identified and resolved electrical issues"
     ],
   },
   {
-    company: "Consectetur Inc.",
-    location: "Adipiscing, Ipsum",
-    position: "Intern",
-    period: "Jun 2018 - Feb 2019",
+    company: "The Home Depot",
+    location: "Glendale, CO",
+    position: "",
+    period: "May 2016 - July 2016",
     achievements: [
-      "Praesent dapibus, neque id cursus faucibus.",
-      "Fusce feugiat malesuada odio.",
+      "",
+      "",
+    ],
+  },
+    {
+    company: "The Home Depot",
+    location: "Front Range, CO & WY",
+    position: "Merchandise Execution Team",
+    period: "May 2010 - Jun 2016",
+    achievements: [
+      "",
+      "",
     ],
   },
 ];
 
 export const education = [
   {
-    institution: "Lorem Ipsum University",
-    location: "Lorem City",
-    degree: "BSc Lorem Ipsum",
-    period: "2015 - 2019",
+    institution: "University of Minnesota",
+    location: "Minneapolis, MN",
+    degree: "Certificate",
+    period: "2024 - 2025",
     achievements: [
-      "President of Lorem Ipsum Club",
-      "Organized multiple lorem events",
-      "Represented university in national competitions.",
-      "Graduated with honors.",
+      "Gained proficiency with full-stack development using MERN stack technologies (React, Express.js, MongoDB, Node.js), applying agile methodologies in both collaborative team projects and solo work. Built and delivered real-world applications with hands-on experience in problem-solving and project execution. ",
     ],
   },
 ];
 export const skills = {
   programmingLanguages: [
-    "LoremLang",
-    "IpsumScript",
-    "DolorLang",
-    "SitLang",
-    "AmetLang",
-    "ConsecteturLang",
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "TypeScript",
+    "Python",
   ],
-  frontendDevelopment: [
-    "LoremJS",
-    "IpsumJS",
-    "Dolor Native",
-    "Sit UI",
-    "Amet CSS",
-    "HTML",
-    "CSS",
+  frameworksAndLibraries: [
+    "React.js", 
+    "Next.js", 
+    "Three.js", 
+    "Node.js",
+    "Express.js",
   ],
-  backendDevelopment: ["LoremNode", "IpsumExpress"],
-  databaseAndStorage: ["LoremDB", "IpsumORM"],
-  cloudAndDevOps: ["LoremCloud"],
+  developmentAndDeployment: [
+    "Vite",
+    "Docker",
+    "REST/GraphQL APIs",
+    "CI/CD (Github Actions)",
+    "Netlify",
+    "Render"
+  ],
+databaseAndStorage: ["SQL (PostgreSQL)", "NoSQL (MongoDB)"],
+  testing: [
+    "Cypress (E2E/unit tests)",
+    "Postman",
+    "Insomnia"
+  ],
   toolsAndServices: [
-    "LoremAuth",
-    "IpsumCMS",
-    "DolorAnalytics",
-    "SitValidator",
-    "AmetMonitor",
-    "ConsecteturPanel",
-    "AdipiscingTrigger",
+    "JWT",
+    "Unix/Linux CLI",
+    "AI/LLM prompt generation",
   ],
 };
 
 export const projects = [
   {
-    title: "Lorem Ipsum Project",
+    title: "Arceust Era",
     github: "https://github.com/loremipsum/project",
     description: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -106,7 +114,7 @@ export const projects = [
     ],
   },
   {
-    title: "Dolor Sit Amet App",
+    title: "TomeTrove",
     github: "https://github.com/loremipsum/dolorapp",
     description: [
       "Morbi in sem quis dui placerat ornare.",
@@ -116,56 +124,67 @@ export const projects = [
       "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.",
     ],
   },
+    {
+    title: "CosmoCommute",
+    github: "https://github.com/loremipsum/dolorapp",
+    description: [
+      "A space-themed platform leveraging NASA APIs to provide real-time updates on recent space weather events and estimate interplanetary travel times based on scientific data.",
+      "",
+      "",
+      "",
+      "",
+    ],
+  },
 ];
 
-export const awards = [
-  {
-    name: "Lorem Ipsum Award",
-    issuer: "Lorem Organization",
-    date: "Jan 2020",
-    type: "International",
-    position: "First Place",
-  },
-  {
-    name: "Dolor Sit Amet Prize",
-    issuer: "Ipsum Foundation",
-    date: "Feb 2021",
-    type: "National",
-    position: "Runner-up",
-  },
-  {
-    name: "Consectetur Hackathon",
-    issuer: "Adipiscing Org",
-    date: "Mar 2022",
-    type: "National",
-    position: "Winner",
-  },
-  {
-    name: "Vestibulum Event",
-    issuer: "Vestibulum College",
-    date: "Apr 2022",
-    type: "National",
-    position: "First Prize",
-  },
-  {
-    name: "Curabitur Hackfest",
-    issuer: "Curabitur Institute",
-    date: "May 2022",
-    type: "National",
-    position: "Second Prize",
-  },
-  {
-    name: "Praesent Hacks",
-    issuer: "Praesent Group",
-    date: "Jun 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Fusce Hack",
-    issuer: "Fusce Club",
-    date: "Jul 2022",
-    type: "National",
-    position: "Most Impactful Hack",
-  },
-];
+// export const awards = [
+//   {
+//     name: "Lorem Ipsum Award",
+//     issuer: "Lorem Organization",
+//     date: "Jan 2020",
+//     type: "International",
+//     position: "First Place",
+//   },
+//   {
+//     name: "Dolor Sit Amet Prize",
+//     issuer: "Ipsum Foundation",
+//     date: "Feb 2021",
+//     type: "National",
+//     position: "Runner-up",
+//   },
+//   {
+//     name: "Consectetur Hackathon",
+//     issuer: "Adipiscing Org",
+//     date: "Mar 2022",
+//     type: "National",
+//     position: "Winner",
+//   },
+//   {
+//     name: "Vestibulum Event",
+//     issuer: "Vestibulum College",
+//     date: "Apr 2022",
+//     type: "National",
+//     position: "First Prize",
+//   },
+//   {
+//     name: "Curabitur Hackfest",
+//     issuer: "Curabitur Institute",
+//     date: "May 2022",
+//     type: "National",
+//     position: "Second Prize",
+//   },
+//   {
+//     name: "Praesent Hacks",
+//     issuer: "Praesent Group",
+//     date: "Jun 2022",
+//     type: "National",
+//     position: "Second Runner-up",
+//   },
+//   {
+//     name: "Fusce Hack",
+//     issuer: "Fusce Club",
+//     date: "Jul 2022",
+//     type: "National",
+//     position: "Most Impactful Hack",
+//   },
+// ];
