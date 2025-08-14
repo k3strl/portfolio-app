@@ -15,7 +15,7 @@ export const workExperience = [
     company: "Sea Level Fish LLC",
     location: "Hopkins, MN",
     position: "Sales floor associate",
-    period: "Jan 2020 - Present",
+    period: "Sept 2023 - Aug 2024",
     achievements: [
       "Handled catching, bagging, acclimating, and caring for diverse aquarium fish",
       "Conducted routine maintenance tasks including water changes and cleaning procedures",
