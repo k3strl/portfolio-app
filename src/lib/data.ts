@@ -7,7 +7,7 @@ export const personalInfo = {
   profilePicture: "/profile.jpeg",
   heroDescription:
     "As someone transitioning into software development, I bring a fresh perspective rooted in curiosity, adaptability, and a passion for solving real-world problems. My background in customer service — drawn from both my experience in retail and as an electrician — has equipped me with strong communication, problem-solving, and collaboration skills. I've developed the ability to understand user needs, resolve conflicts, and deliver solutions that prioritize clarity and accessibility. I thrive in cross-functional environments, where I consistently demonstrate the ability to learn quickly, adapt to new technologies, and contribute to mission-driven teams. My goal is to grow in a mentorship-driven environment where I can create innovative projects that prioritize accessibility, performance, and meaningful impact.",
-  resume: "/nb-resume-2025.pdf",
+  resume: "/nb-resume-2026.html",
   };
 
 export const workExperience = [
@@ -141,65 +141,4 @@ export const projects = [
       "Collaborated effectively with team members through both synchronous and asynchronous communication to deliver a minimum viable product (MVP) on schedule."
     ],
   },
-    {
-    title: "Monster Tamer",
-    github: "https://github.com/k3strl/monster-tamer",
-    description: [
-      "Developed a fully functional monster tamer game using Phaser 3 and JavaScript, following a comprehensive tutorial to apply game development concepts.",
-      "Designed and implemented core gameplay mechanics, including character interactions and game progression, to enhance JavaScript skills and demonstrate technical ability.",
-      "Leveraged object-oriented programming principles and game loops to create a dynamic, interactive experience, marking the successful completion of an initial game development project."
-    ],
-  },
 ];
-
-// export const awards = [
-//   {
-//     name: "Lorem Ipsum Award",
-//     issuer: "Lorem Organization",
-//     date: "Jan 2020",
-//     type: "International",
-//     position: "First Place",
-//   },
-//   {
-//     name: "Dolor Sit Amet Prize",
-//     issuer: "Ipsum Foundation",
-//     date: "Feb 2021",
-//     type: "National",
-//     position: "Runner-up",
-//   },
-//   {
-//     name: "Consectetur Hackathon",
-//     issuer: "Adipiscing Org",
-//     date: "Mar 2022",
-//     type: "National",
-//     position: "Winner",
-//   },
-//   {
-//     name: "Vestibulum Event",
-//     issuer: "Vestibulum College",
-//     date: "Apr 2022",
-//     type: "National",
-//     position: "First Prize",
-//   },
-//   {
-//     name: "Curabitur Hackfest",
-//     issuer: "Curabitur Institute",
-//     date: "May 2022",
-//     type: "National",
-//     position: "Second Prize",
-//   },
-//   {
-//     name: "Praesent Hacks",
-//     issuer: "Praesent Group",
-//     date: "Jun 2022",
-//     type: "National",
-//     position: "Second Runner-up",
-//   },
-//   {
-//     name: "Fusce Hack",
-//     issuer: "Fusce Club",
-//     date: "Jul 2022",
-//     type: "National",
-//     position: "Most Impactful Hack",
-//   },
-// ];

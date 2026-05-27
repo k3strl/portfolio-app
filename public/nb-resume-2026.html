@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nic Blaize - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.4;
+            color: #333;
+            background-color: #fff;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #2c5282;
+            padding-bottom: 1rem;
+        }
+
+        .name {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #2c5282;
+            margin-bottom: 0.3rem;
+        }
+
+        .location {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .contact-item {
+            color: #2c5282;
+            text-decoration: none;
+        }
+
+        .contact-item:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            margin-bottom: 1.5rem;
+        }
+
+        .section-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #2c5282;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 0.3rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .about-text {
+            text-align: justify;
+            line-height: 1.5;
+            color: #444;
+        }
+
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .skill-category {
+            margin-bottom: 0.8rem;
+        }
+
+        .skill-category-title {
+            font-weight: 600;
+            color: #2c5282;
+            margin-bottom: 0.3rem;
+            font-size: 0.95rem;
+        }
+
+        .skill-list {
+            color: #555;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .project {
+            margin-bottom: 1.2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .project:last-child {
+            border-bottom: none;
+        }
+
+        .project-header {
+            margin-bottom: 0.5rem;
+        }
+
+        .project-title {
+            font-weight: 700;
+            color: #2c5282;
+            font-size: 1.05rem;
+            margin-bottom: 0.2rem;
+        }
+
+        .project-links {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 0.3rem;
+        }
+
+        .project-links a {
+            color: #2c5282;
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+
+        .project-links a:hover {
+            text-decoration: underline;
+        }
+
+        .project-description {
+            color: #444;
+            font-size: 0.9rem;
+            line-height: 1.4;
+            margin-bottom: 0.3rem;
+        }
+
+        .project-bullets {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .project-bullets li {
+            position: relative;
+            padding-left: 1rem;
+            margin-bottom: 0.3rem;
+            color: #555;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .project-bullets li::before {
+            content: "•";
+            color: #2c5282;
+            position: absolute;
+            left: 0;
+        }
+
+        .experience-item {
+            margin-bottom: 1.2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .experience-item:last-child {
+            border-bottom: none;
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .job-title {
+            font-weight: 700;
+            color: #2c5282;
+            font-size: 1.05rem;
+        }
+
+        .company {
+            font-weight: 600;
+            color: #444;
+            font-size: 1rem;
+        }
+
+        .date-range {
+            color: #666;
+            font-size: 0.9rem;
+            font-style: italic;
+        }
+
+        .experience-bullets {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .experience-bullets li {
+            position: relative;
+            padding-left: 1rem;
+            margin-bottom: 0.3rem;
+            color: #555;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .experience-bullets li::before {
+            content: "•";
+            color: #2c5282;
+            position: absolute;
+            left: 0;
+        }
+
+        .education-item {
+            margin-bottom: 1rem;
+        }
+
+        .degree {
+            font-weight: 700;
+            color: #2c5282;
+            font-size: 1.05rem;
+        }
+
+        .school {
+            color: #444;
+            font-weight: 600;
+            margin-bottom: 0.2rem;
+        }
+
+        .education-details {
+            color: #666;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        @media print {
+            body {
+                padding: 0.3in;
+                font-size: 11pt;
+                line-height: 1.3;
+            }
+            
+            .name {
+                font-size: 18pt;
+            }
+            
+            .section-title {
+                font-size: 12pt;
+            }
+            
+            .contact-info {
+                font-size: 9pt;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="name">Nic Blaize</h1>
+        <div class="location">Minneapolis, MN</div>
+        <div class="contact-info">
+            <a href="mailto:nblaize@pm.me" class="contact-item">📧 nblaize@pm.me</a>
+            <a href="tel:303-304-4935" class="contact-item">📱(303) 304-4935</a>
+        </div>
+        <div class="contact-info">
+            <a href="https://nbfolio.vercel.app/" class="contact-item">🌐 https://dev-portfolio.k3strl.workers.dev/</a>
+            <a href="https://github.com/k3strl" class="contact-item">🐙 github.com/k3strl</a>
+            <a href="https://linkedin.com/in/nic-blaize" class="contact-item">💼 linkedin.com/in/nic-blaize</a>
+        </div>
+    </header>
+
+    <section class="section">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-text">
+            As someone transitioning into software development, I bring a fresh perspective rooted in curiosity, adaptability, and a passion for solving real-world problems. My background in customer service — drawn from both my experience in retail and as an electrician — has equipped me with strong communication, problem-solving, and collaboration skills. I've developed the ability to understand user needs, resolve conflicts, and deliver solutions that prioritize clarity and accessibility. I thrive in cross-functional environments, where I consistently demonstrate the ability to learn quickly, adapt to new technologies, and contribute to mission-driven teams. My goal is to grow in a mentorship-driven environment where I can create innovative projects that prioritize accessibility, performance, and meaningful impact.
+        </p>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <div class="skill-category-title">Languages & Tools</div>
+                <div class="skill-list">HTML5, CSS3<br>JavaScript (ES6+), TypeScript, Python</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-title">Frameworks & Libraries</div>
+                <div class="skill-list">React.js, Next.js, Three.js<br>Node.js, Express.js</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-title">Databases</div>
+                <div class="skill-list">SQL (PostgreSQL)<br>NoSQL (MongoDB)<br>MariaDB</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-title">Development & Deployment</div>
+                <div class="skill-list">Vite, Docker<br>REST/GraphQL APIs<br>CI/CD (GitHub Actions)<br>Netlify/Render</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-title">Testing</div>
+                <div class="skill-list">Cypress (E2E/unit tests)<br>Postman/Insomnia</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-title">Home Networking</div>
+                <div class="skill-list">SSL Certificates<br>OPNsense<br>Nginx Proxy Manager</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-title">Misc.</div>
+                <div class="skill-list">JWT<br>Unix/Linux CLI<br>AI/LLM prompt generation</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Projects</h2>
+        
+        <div class="project">
+            <div class="project-header">
+                <div class="project-title">Cosmo Commute</div>
+                <div class="project-links">
+                    <a href="https://cosmocommute.onrender.com">Live</a>
+                    <a href="https://github.com/k3strl/15-16.CosmoCommute">Code</a>
+                </div>
+            </div>
+            <p class="project-description">
+                A space-themed platform leveraging NASA APIs to provide real-time updates on recent space weather events and estimate interplanetary travel times based on scientific data.
+            </p>
+            <ul class="project-bullets">
+                <li>Developed a full-stack application with React for the frontend and Express/PostgreSQL with Sequelize for backend data management, incorporating JWT-based authentication for secure user access.</li>
+                <li>Engineered dynamic 3D planetary visualizations using Three.js to provide an immersive representation of interplanetary travel.</li>
+                <li>Collaborated effectively with team members through both synchronous and asynchronous communication to deliver a minimum viable product (MVP) on schedule.</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <div class="project-header">
+                <div class="project-title">TomeTrove (Book Search Engine)</div>
+                <div class="project-links">
+                    <a href="https://one8-tometrove.onrender.com">Live</a>
+                    <a href="https://github.com/k3strl/18.TomeTrove">Code</a>
+                </div>
+            </div>
+            <p class="project-description">
+                A book search platform leveraging the Google Books API to enable users to discover, save, and organize their reading collections efficiently.
+            </p>
+            <ul class="project-bullets">
+                <li>Solo project converting an existing REST API to GraphQL using Apollo Server and Express, enabling more flexible and efficient data fetching.</li>
+                <li>Designed a GraphQL schema that streamlined client requests by eliminating redundant data retrieval and reducing over-fetching.</li>
+                <li>Deployed the application on Render and resolved environment variable configuration issues to ensure seamless functionality during deployment.</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <div class="project-header">
+                <div class="project-title">Arceust Era</div>
+                <div class="project-links">
+                    <a href="https://arceust-era.onrender.com">Live</a>
+                    <a href="https://github.com/jsparrowio/arceust-era">Code</a>
+                </div>
+            </div>
+            <p class="project-description">
+                A collaborative Pokémon party builder game built with GraphQL to manage dynamic data and enable real-time user interactions.
+            </p>
+            <ul class="project-bullets">
+                <li>Engineered the party page logic and implemented front-end GraphQL mutations to enable dynamic user interactions and real-time data updates.</li>
+                <li>Collaborated with teammates on styling consistency and multi-user state management to ensure seamless cross-device functionality.</li>
+                <li>Authored project documentation to streamline onboarding and resolved merge conflicts to maintain code integrity during development.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Education</h2>
+        
+        <div class="education-item">
+            <div class="degree">Full-Stack Web Development Certificate</div>
+            <div class="school">University of Minnesota Minneapolis, MN | Completed March 2025</div>
+            <div class="education-details">
+                Gained proficiency with full-stack development using MERN stack technologies (React, Express.js, MongoDB, Node.js), applying agile methodologies in both collaborative team projects and solo work. Built and delivered real-world applications with hands-on experience in problem-solving and project execution.
+            </div>
+        </div>
+
+        <div class="education-item">
+            <div class="degree">Electrician Apprenticeship</div>
+            <div class="school">Independent Electrical Contractors, Rocky Mountain</div>
+            <div class="education-details">Northglenn, CO</div>
+        </div>
+
+        <div class="education-item">
+            <div class="degree">High School Diploma</div>
+            <div class="school">Durango High School</div>
+            <div class="education-details">Durango, CO</div>
+        </div>
+    </section>
+</body>
+</html>
